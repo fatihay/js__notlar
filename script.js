@@ -48,3 +48,13 @@
 // console.log('23' + '10' + 4);
 // // Bunda otomatik olarak stringe çevirdi
 
+// 5 falsy values: 0, '', undefined, null, NaN
+// of course false
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Jonas'));
+// // true
+// console.log(Boolean({}));
+// // true
+
