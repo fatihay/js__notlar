@@ -58,3 +58,16 @@
 // console.log(Boolean({}));
 // // true
 
+// const age = 18;
+// if (age === 18) console.log('You just became an adult :)');
+// // if bloğunda tek satırlık kod olunca curly brace'e gerek yok
+// // çift eşit olursa "==" type coercion oluyor
+// // burada '18' ile 18 false sonucu dönüyor
+
+// const favourite = Number(prompt("What's your favourite number?"));
+
+// console.log(favourite);
+// console.log(typeof favourite);
+// // string dönüyor
+
+// if (favourite !== 23) console.log('Why not 23?');
