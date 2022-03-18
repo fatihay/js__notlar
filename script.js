@@ -100,6 +100,25 @@
 // }
 
 // const age = 23;
-// age >= 18 ? console.log('I like to drink tea') : console.log("I don't like to drink tea");
+// age >= 18 ? console.log('I like to drink tea ❤') : console.log("I don't like to drink tea");
+// emoji için windows key + .
 // // conditional (ternary) operator
 
+// // const drink = age >= 18 ? 'tea ❤' : 'coffee ☕';
+// // console.log(drink);
+// bu yöntem daha çok kullanılıyor
+
+// console.log(`I like to drink ${age >= 18 ? 'tea ❤' : 'coffee ☕'}`);
+
+
+// CODING CHALLENGE 4
+
+const bill = 430;
+
+console.log(`Your bill is ${bill}, your tip is ${(bill >= 50 && bill <= 300) ? (bill * 0.15) : (bill * 0.2)} and your total is ${(bill >= 50 && bill <= 300) ? (bill * 1.15) : (bill * 1.2)}`);
+
+// Your bill is 275, your tip is 41.25 and your total is 316.25
+
+// Your bill is 40, your tip is 8 and your total is 48
+
+// Your bill is 430, your tip is 86 and your total is 516
